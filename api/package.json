@@ -1,0 +1,14 @@
+{
+  "name": "delivery-report-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Watchmen",
+  "license": "MIT",
+  "scripts": {
+    // "server": "cp ./deliveries.example.json deliveries.json; json-server --watch deliveries.json"
+    "server": "json-server --watch deliveries.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}

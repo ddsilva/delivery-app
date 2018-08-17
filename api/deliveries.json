@@ -1,0 +1,22 @@
+{
+  "deliveries": [
+    {
+      "id": "1",
+      "client": "Maria Souza",
+      "weight": "5000",
+      "address": {
+        "street": "Paulista Avenue",
+        "number": "666",
+        "neighborhood": "Bela Vista",
+        "compĺement": "Near from Gazeta Building",
+        "city": "São Paulo",
+        "state": "São Paulo",
+        "country": "Brazil",
+        "geolocation": {
+          "latitude": "-23.5669484",
+          "longitude": "-46.6515425,17"
+        }
+      }
+    }
+  ]
+}
