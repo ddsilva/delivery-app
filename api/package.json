@@ -5,7 +5,6 @@
   "author": "Watchmen",
   "license": "MIT",
   "scripts": {
-    // "server": "cp ./deliveries.example.json deliveries.json; json-server --watch deliveries.json"
     "server": "json-server --watch deliveries.json"
   },
   "dependencies": {
