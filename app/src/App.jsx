@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Icon } from '@cathodevel/quantum';
+import { Container, Row, Col } from '@cathodevel/quantum';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Container>
+        <Container style={{padding: '20px'}}>
           <Row>
-            <Col
-              style={{
-                textAlign: 'center',
-                paddingTop: '60px',
-                paddingBottom: '60px',
-              }}
-            >
-              <Icon name="thumb_up" />
-              Catho Simple App
+            <Col tablet={3}>
+              Form
+            </Col>
+
+            <Col tablet={9}>
+              App
             </Col>
           </Row>
         </Container>
